@@ -2,7 +2,7 @@
 > Di Kembangkan oleh Dwi Hardiyanto
 
 ### Daftar Isi
-* (Syarat Install)(#syarat-install)
+* [Syarat Install](#syarat-install)
 * [Preview Halaman](#preview-halaman)
 * [Install di Linux](#install-di-linux)
 * [Install di Windows](#install-di-windows)
