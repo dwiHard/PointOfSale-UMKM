@@ -1,0 +1,276 @@
+body {  font : 100%/1.3 'Roboto', 'Dosis', sans-serif;  }
+
+h1 { font-size:1.6em; }
+h2 { font-size:1em;  }
+
+h1, h2, h3{
+    font-weight: normal;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    background: #1A80E6;
+    border:none; color:#f5f5f5;
+    border-radius: 5px;
+    padding: 15px 0;
+    margin-top: -10px;
+}
+
+.btn {
+    cursor: pointer;
+    border:none; 
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+.wrapper{
+    padding:0 2em;
+    background:#1A80E6;
+    color:#fff;
+    margin: 1em 2em 0 2em;
+    border-radius: 10px 10px 0 0;
+    padding-top: 20px;
+}
+
+#content{
+    margin: 0 2em;
+    padding:0 2em;
+    background: #fff;
+    border:solid 1px #ccc;
+    border-top: solid 4px #FF7F00;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+nav {background:#1A80E6;float:left;  border-radius: 10px 10px 0 0; }
+nav ul {text-align:center; z-index: 99999;}
+nav ul li {float:left;display:inline; font-size: 15px; }
+nav ul li:hover {background:transparent; color:#E8EA6E; }
+nav ul li a {display:block;padding:10px 20px;color:#fff; text-decoration: none}
+nav ul li ul {position:absolute;width:210px;background:#FF7F00; padding-left: 10px;}
+nav ul li ul li {width:210px; text-align: left; }
+nav ul li ul li a {display:block;padding:10px; color:#f2f2f2; text-decoration: none;}
+nav ul li ul li:hover a {color:#C4EA54;}
+nav ul li ul.fallback {display:none;}
+nav ul li:hover ul.fallback {display:block; z-index: 99999; }
+
+.mb1 {
+    margin-bottom:20px;
+}
+
+.menu-icon{
+    border-radius:7px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    margin: 4px;
+}
+
+.menu-icon img {
+    float: left;
+}
+.menu-icon h2{
+    float: left;
+    font-size: 16px;
+    color: #000D1A;
+    padding-top: 12px;
+}
+
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border : 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-size: 26px;
+    width: 500px;
+}
+
+legend span{
+    font-size: 14px;
+    color:#999;
+    float: right;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=password],
+
+input[type=email], select{
+    width: 25em;
+    margin-bottom: 12px;
+    padding: 4px 0;
+}
+
+input[type="submit"], input[type="button"], button{
+    cursor: pointer;
+    padding: 4px;
+}
+
+
+.msg{
+    padding: 8px;
+    display: inline;
+    color:#212121;
+}
+
+.success{
+    background: #00A86B;
+    border-radius: 5px;
+    color: #FBFDFD;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.error{
+    background: #FF0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FBFDFD;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.warning{
+    background: #FFFF00;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #1A1A00;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+.button-batal{
+    background: #FF0000;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FBFDFD;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+.primary{
+    background: #1A80E6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FBFDFD;
+    font-size: 12px;
+    padding: 8px 10px;
+}
+
+table{
+    background: #fcfcfc !important;
+}
+
+table tr th,
+table tr td{
+    padding: 8px 12px;
+    border:solid 1px #ccc;
+}
+
+table tbody tr:hover{
+    background: #CCE6FF;
+}
+
+.page-title{
+    font-weight: normal;
+    display: inline;
+    font-size:2em;
+}
+
+
+
+/*paging */
+
+/* paging */
+.pageNo{
+    padding:3px;
+    margin-left:2px;
+    color:#666;
+    border:solid 1px #000;
+    background:#FFF;
+}
+.pageNo:hover{
+    color:#999;
+    border:solid 1px #999;
+    text-decoration:none;
+}
+.disabledPageNo{
+    border:solid 1px #999;
+    background:#ddd;
+    padding:3px;
+    margin-left:2px;
+    color:#aaa;
+}
+.pagingBar{
+    padding:5px;
+    margin-top:5px;
+}
+
+
+.badge{
+    background:#D8602E;
+    padding: 4px 8px;
+    color:#fff;
+}
+
+a.btn{
+    text-decoration: none;
+}
+
+
+.judul-page{
+
+}
+
+
+.section .menu-icon{
+    background: #fff;
+}
+
+#form-inline{
+    margin: 0;
+}
+
+
+#form-inline fieldset div{
+    display: inline;
+    float: left;
+
+}
+
+#form-inline fieldset div input{
+    width: 220px;
+    margin-right: 20px;
+}
+
+#form-inline fieldset div label{
+    display: inline; width: 140px;
+    float: left;
+}
+
+
+
+.alert{
+    padding: 4px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.info{
+    background: #CDE1EA;
+    border:solid 1px #96C4CC;
+}
+
+
+
+.count{
+    background: #EAE35C;
+}
